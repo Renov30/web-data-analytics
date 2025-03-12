@@ -12,18 +12,18 @@ function Hero() {
           Grow with data.
         </h1>
         <div className="flex justify-center items-center">
-          <p className="md:text-5xl sm:text-4xl text-4xl font-bold py-4">
+          <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
             fast, flexible financing for
           </p>
           <ReactTyped
-            className="md:text-5xl sm:text-4xl text-xl font-bold pl-2 text-[#00df9a]"
+            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#00df9a]"
             strings={["BTB", "BTC", "SASS"]}
             typeSpeed={160}
             backSpeed={140}
             loop
           />
         </div>
-        <p className="md:text-2xl text-xl font-bold text-gray-500">
+        <p className="md:text-2xl text-xl font-bold text-gray-500 mx-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
           assumenda?
         </p>

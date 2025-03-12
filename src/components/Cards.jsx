@@ -7,7 +7,7 @@ const Cards = () => {
   return (
     <div className="w-full py-[10rem] px-4 bg-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border border-gray-300">
           <img
             className="w-20 mx-auto mt-[-3rem] bg-white"
             src={Single}
@@ -25,7 +25,7 @@ const Cards = () => {
           </button>
         </div>
 
-        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300 border border-gray-300">
           <img
             className="w-20 mx-auto mt-[-3rem] bg-transparent"
             src={Double}
@@ -43,7 +43,7 @@ const Cards = () => {
           </button>
         </div>
 
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border border-gray-300">
           <img
             className="w-20 mx-auto mt-[-3rem] bg-white"
             src={Triple}
